@@ -37,6 +37,3 @@ DATA_ROOT=/path/to/EEEM066_KnifeHunter bash train.sh
 DATA_ROOT=/path/to/EEEM066_KnifeHunter bash test.sh
 ```
 
-## Publication Note
-
-This repository should be kept private if the coursework code or dataset license does not permit public release.
