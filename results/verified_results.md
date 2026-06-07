@@ -1,6 +1,6 @@
 # Verified Results
 
-Best completed Surrey run:
+Best completed training run:
 
 | Model | Epoch | Validation Metric | Result |
 | --- | ---: | --- | ---: |

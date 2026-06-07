@@ -1,5 +1,3 @@
-# Copyright (c) EEEM071, University of Surrey
-
 import math
 import random
 

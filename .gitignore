@@ -7,7 +7,7 @@ __pycache__/
 *.tar.gz
 *.zip
 Knife-Effb3-aug/
-EEEM066_KnifeHunter/
+KnifeHunter-data/
 data/
 dataset/*.csv
 logs/

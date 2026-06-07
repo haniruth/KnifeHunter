@@ -11,7 +11,7 @@ from torch.optim import lr_scheduler
 from torch.utils.data import DataLoader
 import timm
 from sklearn.model_selection import train_test_split
-import uuid
+from uuid import uuid4
 
 from src.lr_schedulers import init_lr_scheduler
 from src.optimizers import init_optimizer
@@ -72,11 +72,7 @@ def main():
 
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     log.open(f"logs/log_test_{timestamp}.txt")
-    student_id = os.environ.get('STUDENT_ID', 'your_id')
-    student_name = os.environ.get('STUDENT_NAME', 'your_name')
-    log.write(f"Student ID:{student_id}\n")
-    log.write(f"Student name:{student_name}\n")
-    log.write(f"UUID:{uuid.uuid4()}\n")
+    log.write(f"Run ID:{uuid4()}\n")
 
     log.write(f"==========\nArgs:{args}\n==========")
 

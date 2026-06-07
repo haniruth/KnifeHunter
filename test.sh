@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-DATA_ROOT="${DATA_ROOT:-../EEEM066_KnifeHunter}"
+DATA_ROOT="${DATA_ROOT:-../KnifeHunter-data}"
 
 python Testing.py \
 --model_mode tf_efficientnet_b3 \
