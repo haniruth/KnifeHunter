@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.pth
+*.pt
+*.pkl
+*.tar
+*.tar.gz
+*.zip
+Knife-Effb3-aug/
+EEEM066_KnifeHunter/
+data/
+dataset/*.csv
+logs/
+.venv/
+venv/
+.env
+.DS_Store
